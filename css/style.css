@@ -1,3 +1,32 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 
+.header-container {
+  width: 100%;
+}
+.header-container .cont-row-1-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(42, 170, 42);
+}
+.header-container .cont-row-1-header .icon-ig-container {
+  background-color: rgb(42, 170, 42);
+}
+.header-container .cont-row-1-header .icon-ig-container .link-ig-header {
+  text-decoration: none;
+  margin: 10px;
+}
+.header-container .cont-row-1-header .icon-ig-container .link-ig-header .fa-instagram {
+  color: black;
+  padding: 5px;
+}
+@media only screen and (max-width: 990px) {
+  .header-container .cont-row-1-header {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
