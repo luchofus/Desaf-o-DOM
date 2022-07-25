@@ -6,27 +6,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b6eda3b111.js" crossorigin="anonymous"></script>
     <title>Crear algoritmo con ciclos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
     <!--HEADER-->
     <header>
         <div class="header-container">
-            <div class="row container-fluid cont-row-1-header">
-                <div class="col col-lg-12 icon-ig-container">
-                    <a class="link-ig-header" href="#" target="_BLANK">
+            <div class="row cont-row-1-header">
+                <div class="col col-lg-1 cont-link-ig-header">
+                    <a href="#" class="link-instagram-header">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </div>
+                <div class="col col-lg-11 cont-text-header">
+                    <p class="text-header">Envíos a toda zona oeste de Buenos Aires. <a href="#"
+                            style="color:green; text-decoration: none;">Más información</a></p>
+                </div>
+                <div>
+
+                </div>
             </div>
-            <div></div>
-            <div></div>
+            <!--ROW 2 HEADER-->
+            <div class="row cont-row-2-header">
+                <!--COLUMNA 1 HEADER-->
+                <div class="col col-lg-2 col-md-2 cont-logo-link">
+                    <a href="index.html" class="logo-link-index">
+                        <img class="logo-link-img" src="src/media/imgs/logo-link.jpg" alt="">
+                    </a>
+                </div>
+                <!--COLUMNA 2 HEADER-->
+                <div class="col col-lg-7 col-md-8 cont-search">
+                    <div class="container-fluid cont-search2">
+                        <form class="d-flex form-search" role="search">
+                            <input class="form-control me-2 input-search" type="search"
+                                placeholder="¿Qué está buscando?" aria-label="Search">
+                            <button class="btn btn-outline-success btn-search" type="submit">
+                                <i class="fas fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <!--COLUMNA 3 HEADER-->
+                <div class="col col-lg-3 col-md-2 cont-user-cart">
+                    <ul class="ul-user-cart">
+                        <li class="li-user-cart">
+                            <a class="link-user-cart" href="#">
+                                <i class="fas fa-user icon-user-cart"></i>
+                            </a>
+                            <p class="text-user-cart">Cuenta</p>
+                        </li>
+                        <li class="li-user-cart">
+                            <a href="#" class="link-user-cart">
+                                <i class="fas fa-cart-shopping icon-user-cart"></i>
+                            </a>
+                            <p class="text-user-cart">Carrito</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--ROW 3 HEADER-->
+            <div class="row cont-row-3-header">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Productos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <div class="llal">
+                                            <li class="dropdown-item"><b>Productos naturales</b></li>
+                                            <li class="dropdown-item">Avena</li>
+                                            <li class="dropdown-item">Frutos secos</li>
+                                            <li class="dropdown-item">Granola</li>                                        
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </div>
+                                    <div class="llal">
+                                        
+                                        <li class="dropdown-item"><b>Productos naturales</b></li>
+                                        <li class="dropdown-item">Avena</li>
+                                        <li class="dropdown-item">Frutos secos</li>
+                                        <li class="dropdown-item">Granola</li>                                        
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </div>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Valle Verde</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Preguntas frecuentes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
+    <section>
+        <div id="cont-section">
+            <div class="product" id="product-1">
+                <h3>Yogurt griego</h3>
+                <p id="price">$40,00</p>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -35,9 +135,11 @@
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
     </script>
     <script src="js/main.js"></script>
 </body>

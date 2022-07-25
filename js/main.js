@@ -1,4 +1,4 @@
-
+/*
 let acumuladorCarrito = 0
 let cantidadDeProductos = 3000000
 let precioTotal = 0
@@ -56,3 +56,34 @@ for(let i=0; i <= cantidadDeProductos; i++){
     }    
 }
 }while(llevarMas == "Si")
+*/
+
+const productosDisponibles = [
+    {producto: "Avena", precio: 180},
+    {producto: "Pan integral", precio: 170},
+    {producto: "Granola", precio: 200},
+    {producto: "Infusiones", precio: 120},
+    {producto: "Barritas energéticas", precio: 80},
+]
+
+let titulo = document.createElement ("div")
+titulo.innerHTML = `<h3>Productos disponibles</h3>`
+document.body.append(titulo)
+for (const producto of productosDisponibles){
+    let section = document.getElementById("cont-section")
+    let contenedor = document.createElement("div")
+    contenedor.innerHTML = `<div style="border: solid 1px red; width:300px"><h4><b> ${producto.producto}</b></h4>
+                            <p> ${producto.precio}</p></div>`
+    document.body.append(contenedor)
+}
+
+let precio = document.getElementById("price")
+precio.remove();
+
+let newPrecio = document.createElement("p")
+newPrecio.innerHTML = `<div style="border:solid 3px green; width:350px;"><h6><b>¡New price!</b></h6>
+<p style="text-decoration:line-through;">$40,00</p><p>$60,00</p></div>
+`
+
+let producto1 = document.getElementById("product-1")
+producto1.appendChild(newPrecio)
